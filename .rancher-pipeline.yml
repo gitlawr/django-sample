@@ -3,4 +3,6 @@ stages:
   steps:
   - runScriptConfig:
       image: busybox
-      shellScript: echo hi
+      shellScript: |-
+        echo hi
+        echo good
