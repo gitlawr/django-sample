@@ -1,0 +1,6 @@
+stages:
+- name: build
+  steps:
+  - runScriptConfig:
+      image: busybox
+      shellScript: echo hi
