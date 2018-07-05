@@ -6,4 +6,4 @@ stages:
       shellScript: |-
         echo hi
         echo good
-branch: a
+branch: master
